@@ -10,7 +10,7 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
@@ -19,17 +19,77 @@
   border: 1pt solid tomato
 }
 
-.header {
-  /* height: 100vh; */
-  min-height: 600px;
-  max-height: 756px;
-  background-color: var(--background-color-light-grey);
+.logo {
+  background-image: url(../images/logo_place_header.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.logo_place_header {
+  z-index: 1;
+  width: 228px;
+  height: 32px;
+  margin: 30px 64px;
+}
+
+.header {
+  min-height: 600px;
+  max-height: 756px;
+  height: 100vh;
+  background-color: var(--background-color-light-grey);
+  display: flex;
+  position: relative;
+  color: var(--font-color);
+}
+
+.header__title {
+  z-index: 2;
+  width: 720px;
+  position: absolute;
+  align-self: center;
+  margin: auto 64px auto;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+}
+
+.header__subtitle {
+  z-index: 2;
+  position: absolute;
+  width: 338px;
+  margin: auto 64px auto;
+  bottom: 30px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__link {
+  color: var(--theme-color-main);
+}
+
+.header__main-illustration {
+  z-index: 1;
+  width: 765px;
+  height: 608px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  right: 0;
+}
+
 .header__square-pic {
+  z-index: 0;
   height: 568px;
   width: 568px;
+  background-color: var(--theme-color-main);
+  position: absolute;
+  top: 64px;
+  right: 0px;
 }
 
 
