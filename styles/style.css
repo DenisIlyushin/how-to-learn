@@ -84,7 +84,7 @@
   background-color: #1f80ed;
   position: absolute;
   top: 64px;
-  right: 0px;
+  right: 0;
 }
 
 .description {
@@ -109,7 +109,7 @@
   align-items: stretch;
   font-weight: normal;
   display: block;
-  margin: 0px;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -127,7 +127,7 @@
 }
 
 .two-columns__paragraph:last-of-type {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .two-columns__span-accent {
@@ -283,7 +283,7 @@
   width: fit-content;
   position: absolute;
   margin: 18px 0px 18px;
-  bottom: 0px;
+  bottom: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
