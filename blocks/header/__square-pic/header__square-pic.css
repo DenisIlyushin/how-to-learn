@@ -2,7 +2,7 @@
   z-index: 0;
   height: 568px;
   width: 568px;
-  background-color: #1f80ed;
+  background-color: var(--theme-color-main);
   position: absolute;
   top: 64px;
   right: 0;
