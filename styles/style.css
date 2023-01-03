@@ -256,7 +256,7 @@
   text-decoration: none;
 } */
 
-.kaufman {
+/* .kaufman {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -265,9 +265,9 @@
   padding: 90px 0px 90px;
   background-color: #1f1f1f;
   overflow: hidden;
-}
+} */
 
-.kaufman__triangle {
+/* .kaufman__triangle {
   z-index: 0;
   width: 877px;
   height: 877px;
@@ -277,7 +277,7 @@
   position: absolute;
   top: 0;
   right: -210px;
-}
+} */
 
 .footer {
   background-color: #1f1f1f;
