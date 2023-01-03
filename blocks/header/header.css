@@ -6,4 +6,5 @@
   display: flex;
   position: relative;
   color: var(--font-color, #000);
+  overflow: hidden;
 }
