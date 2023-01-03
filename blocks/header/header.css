@@ -2,8 +2,8 @@
   min-height: 600px;
   max-height: 756px;
   height: 100vh;
-  background-color: #f2f2f2;
+  background-color: var(--background-color-light-grey, #f2f2f2);
   display: flex;
   position: relative;
-  color: var(--font-color);
+  color: var(--font-color, #000);
 }
