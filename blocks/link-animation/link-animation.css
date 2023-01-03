@@ -1,0 +1,4 @@
+.link-animation:hover {
+  opacity: 0.4;
+  transition: opacity 0.2s linear;
+}
