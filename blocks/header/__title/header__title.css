@@ -1,6 +1,6 @@
 .header__title {
   z-index: 2;
-  width: 720px;
+  max-width: 720px;
   align-self: center;
   margin: auto 64px auto;
   line-height: 96px;
