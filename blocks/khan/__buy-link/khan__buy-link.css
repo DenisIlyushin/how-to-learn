@@ -4,4 +4,5 @@
   font-weight: normal;
   color: var(--theme-color-main, #1f80ed);
   width: fit-content;
+  text-decoration: none;
 }
